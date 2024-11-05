@@ -169,7 +169,7 @@ window.onload = () => { // FUNCAO A SER EXECUTADA QUANDO A JANELA CARREGAR
             this.gridY = Math.floor((this.y + this.size / 2) / gridHeigth);
             this.gridX = Math.floor((this.x + this.size / 2) / gridWidth);
             this.bombs = 1;
-            this.bombPower = 9999;
+            this.bombPower = 1;
             this.health = health;
             this.right = this.up = this.right = false;
             this.down = false;
